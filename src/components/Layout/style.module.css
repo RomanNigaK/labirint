@@ -1,0 +1,64 @@
+
+
+
+.link:active,
+.link:hover{
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    margin: 10px;
+    align-items:flex-start;
+    
+    
+}
+.menu{
+    width: 200px;
+    border-right: 1px solid rgb(4, 205, 255);
+    border-top: 1px solid rgb(4, 205, 255);
+    border-bottom: 1px solid rgb(4, 205, 255);
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    
+}
+
+.nameItem{
+    margin-left: 10px;
+}
+
+.groupItem{
+    display: flex;
+    flex-wrap:  wrap
+}
+.item{
+    border: 1px solid  rgb(4, 205, 255);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.itemActive{
+    color: white;
+    background-color: rgb(4, 205, 255);
+}
+
+.btnstart{
+    border-radius: 0px 5px 0px 5px;
+    background-color:  rgb(4, 205, 255);
+    color: white;
+   text-align: center;
+   padding: 5px;
+   margin: 5px;
+   font-size: 14pt;
+   
+
+}
+
+.game{
+    text-align: center;
+    width: 100%;
+
+}

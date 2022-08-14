@@ -1,0 +1,104 @@
+.header{
+    border-left: 1px solid  rgb(4, 205, 255);
+    border-bottom: 1px solid  rgb(4, 205, 255);
+    border-right: 1px solid  rgb(4, 205, 255);
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 16pt;
+}
+
+.header div{
+    margin: 10px;
+    border-bottom: 1px solid black;
+    
+}
+
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn{
+    width: 100px;
+    border:1px solidr rgb(4, 205, 255);
+    background-color: rgb(4, 205, 255);
+    color: white;
+    font-size: 14pt;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+.line{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 0px 15px 0px 15px;
+    margin: 10px;
+    background-color: white;
+}
+.itemStart{
+    background-image: url('./../../../public/img/start.png');
+    background-size: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.itemFinishimg{
+    width: inherit;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 10px;
+
+}
+
+.imgOk{
+    width: 50px;
+    position: absolute;
+}
+.cellLine{
+    display: flex;
+    justify-content: center;
+   
+}
+.cellItem{
+margin: 5px;
+   border:1px solid black
+  
+}
+
+.imgStart{
+    width: 50px;
+}
+
+.boxMove{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap-reverse;
+    
+    
+}
+
+.boxMoveItem{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border:1px solid black;
+    background-color: white;
+}
+
+.boxMoveItem img{
+ height: inherit;
+ width: inherit;
+}
